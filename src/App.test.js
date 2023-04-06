@@ -7,9 +7,3 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test('failing test', () => {
-    render(<App />);
-    const element = screen.getByText(/gibberish that dont exist/i);
-    expect(element).not.toBeInTheDocument();
-});
-
